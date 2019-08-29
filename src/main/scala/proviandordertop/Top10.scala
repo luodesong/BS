@@ -1,19 +1,9 @@
 package proviandordertop
 
-import java.lang
-import java.sql.{Connection, ResultSet, Statement}
-
-import offeset.JedisOffset
-import org.apache.kafka.clients.consumer.ConsumerRecord
-import org.apache.kafka.common.TopicPartition
-import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.broadcast.Broadcast
+
 import org.apache.spark.rdd.RDD
-import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.streaming.dstream.InputDStream
-import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
-import utils.{Data2MysqlUtil, JdbcConnectionPool, JedisConnectionPool, JsonUtil}
+import utils.{Data2MysqlUtil}
 
 object Top10 {
     def getAns(agrs: Any*): Unit = {
