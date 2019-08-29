@@ -2,18 +2,16 @@ package busoverview
 
 import java.lang
 
-import charequest.ProAndChaMoneyAndCount
 import offeset.JedisOffset
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.TopicPartition
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
-import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
-import phone.{DayAndMoney, MonthAndMoneyAvg}
+import phone.MonthAndMoneyAvg
 import utils.{JedisConnectionPool, JsonUtil}
 
 object MySparkContext2 {

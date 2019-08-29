@@ -2,10 +2,7 @@ package chadistribution
 
 
 import org.apache.spark.rdd.RDD
-import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.apache.spark.streaming.dstream.InputDStream
-import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
-import utils.{Data2MysqlUtil, JdbcConnectionPool, JedisConnectionPool, JsonUtil}
+import utils.Data2MysqlUtil
 
 object ChaAndDist {
 
