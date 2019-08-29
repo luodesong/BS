@@ -1,44 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282daeec-56bb-45be-bd88-6e0d6d700663" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcPool.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/JdbcConnectionPool.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/JsonUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestTime.java" afterDir="false" />
+    <list default="true" id="282daeec-56bb-45be-bd88-6e0d6d700663" name="Default Changelist" comment="完成了实时的指标。">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/LoadKafKaDataDemo01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/LoadKafKaDataDemo01.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/LoadkafkaDataDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/LoadkafkaDataDemo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/util/JedisConnectionPool.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/TestRedis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/TestRedis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5$$anonfun$apply$2$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5$$anonfun$apply$2$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadKafkaDataDemo01$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$$anonfun$createContext$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kafka/LoadkafkaDataDemo$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/offeset/JedisOffset$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/offeset/JedisOffset$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/offeset/KafkaRedisOffset$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/offeset/KafkaRedisOffset$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/JedisConnectionPool$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/JedisConnectionPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRedis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Data2MysqlUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Data2MysqlUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Data2RedisUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Data2RedisUtil$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestTime.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,46 +43,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#27#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1922">
-              <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
-              <folding>
-                <element signature="e#15#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/TestRedis.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <element signature="e#17#33#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="748">
+              <caret line="138" column="1" selection-start-line="18" selection-start-column="4" selection-end-line="138" selection-end-column="1" />
+              <folding>
+                <element signature="e#21#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="56" />
               <folding>
                 <element signature="e#21#37#0" expanded="true" />
               </folding>
@@ -111,34 +80,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="330">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="55" />
               <folding>
-                <element signature="e#22#58#0" expanded="true" />
+                <element signature="e#15#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="308">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#21#52#0" expanded="true" />
+                <element signature="e#15#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-352">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="276">
+              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2121">
+              <caret line="893" column="14" selection-start-line="893" selection-start-column="14" selection-end-line="893" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,24 +143,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala">
+        <entry file="jar://D:/Maven/repository-3.5.3-idea/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/format/DateTimeFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="-4186">
+              <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
               <folding>
-                <element signature="e#26#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding>
-                <element signature="e#22#53#0" expanded="true" />
+                <element signature="e#7532#7533#0" expanded="true" />
+                <element signature="e#7589#7590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +173,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/scala/KafkaRedisOffset.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/JedisOffset.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/util/JedisOffset.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/redisPool.properties" />
@@ -199,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/util/JsonUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/util/JedisConnectionPool.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala" />
-        <option value="$PROJECT_DIR$/src/test/java/TestTime.java" />
         <option value="$PROJECT_DIR$/src/main/scala/util/DateUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/java/CollectLog10.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CollectLog10.java" />
@@ -211,16 +194,22 @@
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/Data2Redis.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OderAll.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbcPool.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndMinAndCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTime.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/phone/One.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" />
       </list>
     </option>
   </component>
@@ -245,17 +234,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
-    <option name="y" value="332" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="391" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,14 +274,6 @@
               <item name="BS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,7 +298,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="chadistribution" type="462c0819:PsiDirectoryNode" />
+              <item name="phone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BS" type="b2602c69:ProjectViewProjectNode" />
@@ -326,37 +306,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="charequest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BS" type="b2602c69:ProjectViewProjectNode" />
               <item name="BS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BS" type="b2602c69:ProjectViewProjectNode" />
               <item name="BS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="offeset" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BS" type="b2602c69:ProjectViewProjectNode" />
               <item name="BS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="proviandordertop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,35 +374,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySparkContext">
-    <configuration name="ChaAndDist" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="chadistribution.ChaAndDist" />
-      <module name="BS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chadistribution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FailCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="busquality.FailCount" />
-      <module name="BS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="busquality.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MySparkContext2">
     <configuration name="MySparkContext" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="busoverview.MySparkContext" />
+      <module name="BS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="busoverview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySparkContext2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="busoverview.MySparkContext2" />
       <module name="BS" />
       <extension name="coverage">
         <pattern>
@@ -464,13 +427,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTime.dateToStamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTime" />
+      <option name="METHOD_NAME" value="dateToStamp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySparkContext2" />
+        <item itemvalue="JUnit.TestTime.dateToStamp" />
         <item itemvalue="Application.MySparkContext" />
         <item itemvalue="Application.OderAll" />
         <item itemvalue="Application.ProAndChaMoneyAndCount" />
-        <item itemvalue="Application.ChaAndDist" />
-        <item itemvalue="Application.FailCount" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +460,8 @@
       <workItem from="1566905128687" duration="6999000" />
       <workItem from="1566955978155" duration="42238000" />
       <workItem from="1567005638110" duration="101000" />
-      <workItem from="1567041703003" duration="28515000" />
+      <workItem from="1567041703003" duration="29083000" />
+      <workItem from="1567071835742" duration="9557000" />
     </task>
     <task id="LOCAL-00001" summary="搭建好项目框架，配好redis连接池。">
       <created>1566914523091</created>
@@ -510,13 +484,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567070976532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成了实时的指标。">
+      <created>1567071316719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567071316720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRedis_testOne - 2019.08.27 at 21h 55m 16s.xml">
-      <configuration name="TestRedis.testOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRedis - 2019.08.27 at 21h 56m 17s.xml">
       <configuration name="TestRedis" configurationId="JUnit" />
     </history-entry>
@@ -535,15 +513,26 @@
     <history-entry file="TestTime_dateToStamp - 2019.08.28 at 15h 04m 14s.xml">
       <configuration name="TestTime.dateToStamp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTime_dateToStamp - 2019.08.29 at 19h 48m 14s.xml">
+      <configuration name="TestTime.dateToStamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTime_dateToStamp - 2019.08.29 at 19h 57m 08s.xml">
+      <configuration name="TestTime.dateToStamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTime_dateToStamp - 2019.08.29 at 19h 58m 11s.xml">
+      <configuration name="TestTime.dateToStamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTime_dateToStamp - 2019.08.29 at 19h 58m 56s.xml">
+      <configuration name="TestTime.dateToStamp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77853000" />
+    <option name="totallyTimeSpent" value="87978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,18 +541,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.816944" weight="0.42172524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" visible="true" weight="0.31789136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43769968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2700454" side_tool="true" visible="true" weight="0.17412141" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290735" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.3290735" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49924356" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.7299546" visible="true" weight="0.17412141" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.72919816" weight="0.31629393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,7 +565,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -585,18 +574,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.816944" visible="true" weight="0.34984025" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" visible="true" weight="0.3658147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43769968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18305598" side_tool="true" weight="0.19933555" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290735" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50226927" side_tool="true" weight="0.3290735" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.3290735" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49924356" weight="0.3290735" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.72919816" weight="0.31629393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -612,6 +601,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="搭建好项目框架，配好redis连接池。" />
     <MESSAGE value="完成了实时的指标。" />
@@ -624,23 +639,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/JedisOffset.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/util/JedisOffset.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/LoadkafkaDataDemo.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/TestRedis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="198" column="39" selection-start-line="198" selection-start-column="34" selection-end-line="198" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -654,16 +652,6 @@
           <caret line="83" column="39" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="39" />
           <folding>
             <element signature="e#15#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="20" column="27" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -704,16 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/Data2RedisUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#21#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/Data2RedisUtil.scala" />
     <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming_2.11/2.2.1/spark-streaming_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/dstream/ForEachDStream.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -725,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -773,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -804,26 +769,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1922">
-          <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#65#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="242">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="1298">
           <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
           <folding>
             <element signature="e#17#33#0" expanded="true" />
@@ -831,29 +793,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#22#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="88">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#21#52#0" expanded="true" />
@@ -861,32 +803,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="154">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#21#37#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="638">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2816">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
           <folding>
-            <element signature="e#22#53#0" expanded="true" />
+            <element signature="e#15#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="381">
+          <caret line="28" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="e#27#76#0" expanded="true" />
+            <element signature="e#22#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/format/DateTimeFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/format/DateTimeFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4186">
+          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+          <folding>
+            <element signature="e#7532#7533#0" expanded="true" />
+            <element signature="e#7589#7590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TestRedis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="138" column="1" selection-start-line="18" selection-start-column="4" selection-end-line="138" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2121">
+          <caret line="893" column="14" selection-start-line="893" selection-start-column="14" selection-end-line="893" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="56" />
+          <folding>
+            <element signature="e#21#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,3 +1,5 @@
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormat;
 import org.junit.Test;
 
 import java.text.SimpleDateFormat;
@@ -19,7 +21,9 @@ public class TestTime {
         long ts1 = date1.getTime();
         long ts2 = date2.getTime();
         long l = ts1 - ts2;
-        System.out.println(l);
+
+        String substring = "2018-09-13T02:15:16.054Z".substring(8, 10);
+        System.out.println(substring);
 
     }
 }
