@@ -1,5 +1,5 @@
 import org.junit.Test
-import util.JedisConnectionPool
+import utils.JedisConnectionPool
 
 class TestRedis {
     @Test

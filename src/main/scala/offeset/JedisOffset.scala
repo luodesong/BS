@@ -2,7 +2,7 @@ package offeset
 
 import java.util
 
-import _root_.util.JedisConnectionPool
+import _root_.utils.JedisConnectionPool
 import org.apache.kafka.common.TopicPartition
 
 /**
@@ -16,7 +16,7 @@ object JedisOffset {
     // 创建Jedis连接
     val jedis = JedisConnectionPool.getConnection()
     // 查询redis中所有的Topic、Partition
-    val topicPartitionOffset: util.Map[String, String] = jedis.hgetAll(groupId)
+    val topicPartitionOffset: util.Map[String, String] = jedis.hgetAll("bs:offset:" + groupId)
     // 需要执行隐式转换操作
     import scala.collection.JavaConversions._
     // 将map转换list进行循环处理         hz1803a-1 888

@@ -1,4 +1,4 @@
-package util
+package utils
 
 import java.util.LinkedList
 
@@ -16,7 +16,6 @@ object JedisConnectionPool {
     private val config = ConfigFactory.load("redisPool.properties")
     private val max_connection = config.getString("redis.max_connection") //连接池总数
     private val unuse_num = config.getString("redis.unuse_num") //最大空闲数
-    private val pools = new LinkedList[Jedis]() //连接池
     private val node : String = config.getString("redis.node")//获取节点名称
     private val port : String = config.getString("redis.port")//获取节点端口
 
@@ -30,8 +29,7 @@ object JedisConnectionPool {
 
     // 获取Jedis对象
     def getConnection(): Jedis = {
-        val jedis: Jedis = pool.getResource
-        jedis
+        pool.getResource
     }
 
     // 释放连接

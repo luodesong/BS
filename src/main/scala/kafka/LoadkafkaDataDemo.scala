@@ -19,11 +19,9 @@ object LoadkafkaDataDemo {
 
     def createContext: StreamingContext = {
         //创建上下文
-
         val conf: SparkConf = new SparkConf().setAppName("one").setMaster("local[*]")
 
         val ssc: StreamingContext = new StreamingContext(conf, Milliseconds(5000))
-
         //请求kafka的配置信息
         val kafkaParam: Map[String, Object] = Map[String, Object](
             "bootstrap.servers" -> "min1:9092,min2:9092,min3:9092"

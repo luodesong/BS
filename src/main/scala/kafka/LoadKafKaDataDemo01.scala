@@ -77,7 +77,6 @@ object LoadKafkaDataDemo01 {
         //        })
         //      })
         //    })
-
         // 对消费的数据做单词计数
         // 其中key的数据不需要，仅仅留下value，因为value是实际的log日志数据
         val lines: DStream[String] = logs.map(_.value())
