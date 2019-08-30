@@ -1,8 +1,7 @@
-package busoverview
+package mainclass
 
 import java.lang
 
-import charequest.ProAndChaMoneyAndCount
 import offeset.JedisOffset
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.TopicPartition
@@ -11,10 +10,15 @@ import org.apache.spark.SparkConf
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
 import org.apache.spark.streaming.dstream.InputDStream
-import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
+import org.apache.spark.streaming.kafka010._
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import utils.{JedisConnectionPool, JsonUtil}
 
+/**
+  * Receiver方式；当一个任务从driver发送到executor执行的时候，这时候，将数据拉取到executor中做操作，但是如果数据太大的话，这时候不能全放在内存中，receiver通过WAL，设置了本地存储，他会存放本地，保证数据不丢失，然后使用Kafka高级API通过zk来维护偏移量，保证数据的衔接性，其实可以说，receiver数据在zk获取的，这种方式效率低，而且极易容易出现数据丢失
+  *
+  * Direct 方式； 他使用Kafka底层Api 并且消费者直接连接kafka的分区上，因为createDirectStream创建的DirectKafkaInputDStream每个batch所对应的RDD的分区与kafka分区一一对应，但是需要自己维护偏移量，迭代计算，即用即取即丢，不会给内存造成太大的压力，这样效率很高
+  */
 object MySparkContext {
     def main(args: Array[String]): Unit = {
         val conf = new SparkConf()
@@ -67,6 +71,15 @@ object MySparkContext {
         val stream: InputDStream[ConsumerRecord[String, String]] =
             if (fromOffset.size == 0) {
                 KafkaUtils.createDirectStream(ssc,
+                    // 2、DirectKafkaInputDStream
+                    // LocationStrategies:本地策略。为提升性能,可指定Kafka Topic Partition的消费者所在的Executor。
+                    // LocationStrategies.PreferConsistent:一致性策略。一般情况下用这个策略就OK。将分区尽可能分配给所有可用Executor。
+                    // LocationStrategies.PreferBrokers:特殊情况,如果Executor和Kafka Broker在同一主机,则可使用此策略。
+                    // LocationStrategies.PreferFixed:特殊情况,当Kafka Topic Partition负荷倾斜,可用此策略,手动指定Executor来消费特定的Partition.
+                    // ConsumerStrategies:消费策略。
+                    // ConsumerStrategies.Subscribe/SubscribePattern:可订阅一类Topic,且当新Topic加入时，会自动订阅。一般情况下，用这个就OK。
+                    // ConsumerStrategies.Assign:可指定要消费的Topic-Partition,以及从指定Offset开始消费。
+
                     // 本地策略
                     // 将数据均匀的分配到各个Executor上面
                     LocationStrategies.PreferConsistent,
@@ -79,12 +92,36 @@ object MySparkContext {
                 KafkaUtils.createDirectStream(
                     ssc,
                     LocationStrategies.PreferConsistent,
+
+                    /**
+                      * @Experimental
+                      * def Assign[K, V](
+                      * topicPartitions: Iterable[TopicPartition],
+                      * kafkaParams: collection.Map[String, Object],
+                      * offsets: collection.Map[TopicPartition, Long]): ConsumerStrategy[K, V] = {
+                      * new Assign[K, V](
+                      * new ju.ArrayList(topicPartitions.asJavaCollection),
+                      * new ju.HashMap[String, Object](kafkaParams.asJava),
+                      * new ju.HashMap[TopicPartition, jl.Long](offsets.mapValues(l => new jl.Long(l)).asJava))
+                      * }
+                      *
+                      */
                     ConsumerStrategies.Assign[String, String](fromOffset.keys, kafkas, fromOffset)
                 )
             }
         stream.foreachRDD({
             rdd =>
-                val offestRange = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+
+                /**
+                  * Represents a range of offsets from a single Kafka TopicPartition. Instances of this class
+                  * can be created with `OffsetRange.create()`.
+                  * OffsetRange里面存的是以下这四个值
+                  * topic： Kafka topic name
+                  * partition： Kafka partition id
+                  * fromOffset： Inclusive starting offset
+                  * untilOffset： Exclusive ending offset
+                  */
+                val offestRange: Array[OffsetRange] = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
                 //获取一个连接
                 val jedis = JedisConnectionPool.getConnection()
                 // 业务处理
@@ -108,11 +145,12 @@ object MySparkContext {
                     val proviMap: Map[String, String] = broadcast.value
                     val provi: String = proviMap.getOrElse(provinceCode, "")
 
+                    //组装所有的数据，将每条数据形成一个元组
                     (provi, startTimeDay, startTimeHour, startTimeMin, chMoney, success, 1)
                 })
 
                 /**
-                  * 1)	统计全网的充值订单量, 充值金额, 充值成功数
+                  * 统计全网的充值订单量, 充值金额, 充值成功数
                   */
                 //OrderAll.getAns(datasTuple)
 
@@ -121,9 +159,22 @@ object MySparkContext {
                   */
                 //OrderAndMin.getAns(datasTuple)
 
+                /**
+                  * 统计每小时各个省份的充值失败数据量
+                  */
                 //FailCount.getAns(datasTuple)
+
+                /**
+                  * 实时统计每小时的充值笔数和充值金额
+                  */
                 //ChaAndDist.getAns(datasTuple)
-                ProAndChaMoneyAndCount.getProAndChaMoneyAndHourAndCount(datasTuple)
+
+                /**
+                  * 充值机构分布
+                  * 1)	以省份为维度,统计每分钟各省的充值笔数和充值金额
+                  * 2)	以省份为维度,统计每小时各省的充值笔数和充值金额
+                  */
+                //ProAndChaMoneyAndCount.getProAndChaMoneyAndHourAndCount(datasTuple)
                 //ProAndChaMoneyAndCount.getProAndChaMoneyAndMinAndCount(datasTuple)
 
                 // 将偏移量进行更新
@@ -137,53 +188,3 @@ object MySparkContext {
         ssc.awaitTermination()
     }
 }
-
-
-/*
-data.map(x => {
-    //对每条数据进行json解析
-    val serviceName: String = JsonUtil.getString(x, "serviceName")
-    val chargefee: String = JsonUtil.getString(x, "chargefee")
-    val bussinessRst: String = JsonUtil.getString(x, "bussinessRst")
-    if (serviceName.equals("reChargeNotifyReq")) {
-        val orderAll: util.Map[String, String] = jedis.hgetAll("bs:order:orderAll")
-        if (orderAll == null || orderAll.isEmpty) {
-            jedis.hset("bs:order:orderAll", "orders", "0")
-            jedis.hset("bs:order:orderAll", "money", "0.0")
-            jedis.hset("bs:order:orderAll", "success", "0")
-        } else {
-            val orders: Int = jedis.hget("bs:order:orderAll", "orders").toInt + 1
-            val money: Double = jedis.hget("bs:order:orderAll", "money").toDouble + chargefee.toDouble
-            var success: Int = jedis.hget("bs:order:orderAll", "success").toInt
-            if (bussinessRst.equals("0000")) {
-                success = success + 1
-            }
-            jedis.hset("bs:order:orderAll", "orders", orders.toString)
-            jedis.hset("bs:order:orderAll", "money", money.toString)
-            jedis.hset("bs:order:orderAll", "success", success.toString)
-        }
-    }
-})
-
- */
-
-/*
-data.map(x => {
-    //通过这个获取时间
-    val requestId: String = JsonUtil.getString(x, "requestId")
-    //判断数据是不是可以用
-    val serviceName: String = JsonUtil.getString(x, "serviceName")
-    if (serviceName.equals("reChargeNotifyReq")) {
-        val str: String = requestId.substring(0, 12)
-        //val l: Long = MyDateUtil.getTime(str)
-        //val startTime: String = MyDateUtil.getTimeString(l-60000)
-        val lastMiOr: String = jedis.get("bs:order:time:" + str)
-        if (lastMiOr == null || lastMiOr.isEmpty) {
-            jedis.set("bs:order:time:" + str, "1")
-        } else {
-            val key: Int = jedis.get("bs:order:time:" + str).toInt + 1
-            jedis.set("bs:order:time:" + str, key.toString)
-        }
-    }
-})
- */

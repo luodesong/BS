@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282daeec-56bb-45be-bd88-6e0d6d700663" name="Default Changelist" comment="完成了实时的指标。">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" afterDir="false" />
+    <list default="true" id="282daeec-56bb-45be-bd88-6e0d6d700663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/busoverview/MySparkContext$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1$$anonfun$apply$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proviandordertop/Top10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proviandordertop/Top10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Data2MysqlUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Data2MysqlUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Data2RedisUtil$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Data2RedisUtil$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,60 +34,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/TestRedis.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="147">
+              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="24" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="138" column="1" selection-start-line="18" selection-start-column="4" selection-end-line="138" selection-end-column="1" />
-              <folding>
-                <element signature="e#21#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="56" />
-              <folding>
-                <element signature="e#21#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="55" />
-              <folding>
-                <element signature="e#15#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#15#46#0" expanded="true" />
+                <element signature="e#15#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,35 +48,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="2002">
+              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0-sources.jar!/redis/clients/jedis/BinaryJedis.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2121">
-              <caret line="893" column="14" selection-start-line="893" selection-start-column="14" selection-end-line="893" selection-end-column="14" />
+            <state relative-caret-position="56">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="e#22#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="12" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="12" />
+              <folding>
+                <element signature="e#21#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JdbcConnectionPool.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="158" column="24" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="33" />
+            <state relative-caret-position="-436">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestTime.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="-62">
+              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JsonUtil.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,13 +118,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Maven/repository-3.5.3-idea/joda-time/joda-time/2.9.9/joda-time-2.9.9-sources.jar!/org/joda/time/format/DateTimeFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4186">
-              <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
-                <element signature="e#7532#7533#0" expanded="true" />
-                <element signature="e#7589#7590#0" expanded="true" />
+                <element signature="e#15#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +147,12 @@
         <option value="Scala Object" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>kafka</find>
+      <find>spark.streaming.kafka.maxRatePerPartition</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,30 +175,32 @@
         <option value="$PROJECT_DIR$/src/main/scala/util/DateUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/java/CollectLog10.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CollectLog10.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/DBConnectionPool.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/JdbcConnectionPool.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chadistribution/chadistribution.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/Data2Redis.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OderAll.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcPool.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndMinAndCount.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestTime.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/phone/One.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbcPool.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndMinAndCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestTime.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/phone/One.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala" />
       </list>
     </option>
   </component>
@@ -236,13 +227,14 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
-    <option name="height" value="391" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -274,6 +266,14 @@
               <item name="BS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,7 +298,55 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="chadistribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="charequest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mainclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="offeset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="phone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="proviandordertop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BS" type="b2602c69:ProjectViewProjectNode" />
@@ -314,25 +362,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,11 +409,11 @@
   </component>
   <component name="RunManager" selected="Application.MySparkContext2">
     <configuration name="MySparkContext" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="busoverview.MySparkContext" />
+      <option name="MAIN_CLASS_NAME" value="mainclass.MySparkContext" />
       <module name="BS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="busoverview.*" />
+          <option name="PATTERN" value="mainclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,11 +422,11 @@
       </method>
     </configuration>
     <configuration name="MySparkContext2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="busoverview.MySparkContext2" />
+      <option name="MAIN_CLASS_NAME" value="mainclass.MySparkContext2" />
       <module name="BS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="busoverview.*" />
+          <option name="PATTERN" value="mainclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -461,7 +494,8 @@
       <workItem from="1566955978155" duration="42238000" />
       <workItem from="1567005638110" duration="101000" />
       <workItem from="1567041703003" duration="29083000" />
-      <workItem from="1567071835742" duration="9557000" />
+      <workItem from="1567071835742" duration="10465000" />
+      <workItem from="1567126802664" duration="12993000" />
     </task>
     <task id="LOCAL-00001" summary="搭建好项目框架，配好redis连接池。">
       <created>1566914523091</created>
@@ -491,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1567071316720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成手机的充值消费情况(实时)">
+      <created>1567087739037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567087739038</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成手机的充值消费情况(实时)">
+      <created>1567088503673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567088503673</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -527,12 +575,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87978000" />
+    <option name="totallyTimeSpent" value="101879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22768533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -541,7 +590,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" visible="true" weight="0.31789136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" weight="0.31789136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43769968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,17 +604,17 @@
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.72919816" weight="0.31629393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17776097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,7 +623,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" visible="true" weight="0.3658147" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8154312" weight="0.31789136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43769968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,14 +637,14 @@
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.72919816" weight="0.31629393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,36 +675,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="搭建好项目框架，配好redis连接池。" />
     <MESSAGE value="完成了实时的指标。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了实时的指标。" />
+    <MESSAGE value="完成手机的充值消费情况(实时)" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成手机的充值消费情况(实时)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/JedisConnectionPool.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/KafkaRedisOffset.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/JedisOffset.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/util/JedisOffset.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/LoadkafkaDataDemo.scala" />
-    <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="317" column="16" selection-start-line="317" selection-start-column="16" selection-end-line="317" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/LoadKafKaDataDemo01.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="83" column="39" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="39" />
-          <folding>
-            <element signature="e#15#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1-sources.jar!/org/apache/spark/executor/Executor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -667,13 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/LoadkafkaDataDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -707,27 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JsonUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Maven/repository-3.5.3-idea/redis/clients/jedis/3.0.0/jedis-3.0.0-sources.jar!/redis/clients/jedis/Jedis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="824" column="14" selection-start-line="824" selection-start-column="14" selection-end-line="824" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="e#20#51#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,108 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JdbcConnectionPool.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#26#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-          <folding>
-            <element signature="e#17#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#21#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2816">
-          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
-          <folding>
-            <element signature="e#15#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="28" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#22#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,32 +801,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="138" column="1" selection-start-line="18" selection-start-column="4" selection-end-line="138" selection-end-column="1" />
-          <folding>
-            <element signature="e#21#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#15#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,29 +818,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="-13970">
+          <caret line="822" column="11" selection-start-line="822" selection-start-column="11" selection-end-line="822" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming_2.11/2.2.1/spark-streaming_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/StreamingContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="367">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1-sources.jar!/org/apache/spark/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2965">
+          <caret line="136" column="20" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.1/spark-streaming-kafka-0-10_2.11-2.2.1.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategies.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.1/spark-streaming-kafka-0-10_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/kafka010/DirectKafkaInputDStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.1/spark-streaming-kafka-0-10_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2778">
+          <caret line="1966" column="26" selection-start-line="1966" selection-start-column="26" selection-end-line="1966" selection-end-column="26" />
           <folding>
-            <element signature="e#15#46#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0-sources.jar!/org/apache/kafka/common/TopicPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.1/spark-streaming-kafka-0-10_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/kafka010/ConsumerStrategy.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="413" column="3" lean-forward="true" selection-start-line="404" selection-start-column="2" selection-end-line="413" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/repository-3.5.3-idea/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.2.1/spark-streaming-kafka-0-10_2.11-2.2.1-sources.jar!/org/apache/spark/streaming/kafka010/OffsetRange.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="87" column="3" lean-forward="true" selection-start-line="80" selection-end-line="87" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-978">
+          <caret line="69" column="57" lean-forward="true" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
+          <folding>
+            <element signature="e#21#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/MySparkContext2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="374">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="45" />
           <folding>
             <element signature="e#21#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/KafkaRedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+          <folding>
+            <element signature="e#17#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="101" column="27" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+          <folding>
+            <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/mainclass/MySparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="147" column="41" selection-start-line="147" selection-start-column="41" selection-end-line="147" selection-end-column="41" />
+          <folding>
+            <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busquality/FailCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#20#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chadistribution/ChaAndDist.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#26#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/LoadkafkaDataDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/LoadKafKaDataDemo01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="83" column="39" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/offeset/JedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/charequest/ProAndChaMoneyAndCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/DayAndMoney.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/proviandordertop/Top10.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#26#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/phone/MonthAndMoneyAvg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2MysqlUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/Data2RedisUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JdbcConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JedisConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/MyDateUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/JsonUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/CollectLog10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAll.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="e#22#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/busoverview/OrderAndMin.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#21#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

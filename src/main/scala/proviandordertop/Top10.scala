@@ -5,6 +5,10 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
 import utils.{Data2MysqlUtil}
 
+/**
+  * 以省份为维度统计订单量排名前 10 的省份数据,并且统计每个省份的订单成功率，只保留一位小数，存入MySQL中，进行前台页面显示。
+  * 未完成
+  */
 object Top10 {
     def getAns(agrs: Any*): Unit = {
         val sc: SparkContext = agrs(1).asInstanceOf[SparkContext]

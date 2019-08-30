@@ -1,4 +1,4 @@
-package busoverview
+package mainclass
 
 import java.lang
 
@@ -8,10 +8,10 @@ import org.apache.kafka.common.TopicPartition
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
-import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
-import phone.MonthAndMoneyAvg
+import org.apache.spark.streaming.{Seconds, StreamingContext}
+import phone.{DayAndMoney, MonthAndMoneyAvg}
 import utils.{JedisConnectionPool, JsonUtil}
 
 object MySparkContext2 {
@@ -99,9 +99,9 @@ object MySparkContext2 {
 
                     (openid, phoneNum, money, dates, lat, log)
                 })
-                //DayAndMoney.getAns(dataTuples)
+                DayAndMoney.getAns(dataTuples)
 
-                MonthAndMoneyAvg.getAns(dataTuples)
+                //MonthAndMoneyAvg.getAns(dataTuples)
 
                 // 将偏移量进行更新
                 for (or <- offestRange) {
